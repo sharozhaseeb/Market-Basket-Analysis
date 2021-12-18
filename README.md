@@ -8,7 +8,7 @@ Import the respective libraries through install packages module of RStudio</br>
 
 You will also need Rtools if you dont have already. </br>
 
-## FLow of calculating strong rules
+## FLow of calculating rules by association rule mining strategy.
 First association rules are calculated from the dataset on the respective itemsets </br>
 We get support, cofidence and lift values which are the core to our model. </br>
 Then depending on our user provided parameters we filter the rules according to MinSupport and MinConfidence values, this reduces the computational complexity exponentially. </br>
